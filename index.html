@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <h1 id="head_tag"> Clock </h1>
+    <p style="text-align: center;" >Click the watch to change the watch face</p>
+    <div class="container">
+        <div onclick="deleteBOX()"  class="box hide">
+         <p   id="time"></p>
+        </div>
+
+        <div onclick="deleteAnalog()" class="analogWatch">
+            <div id="htime"></div>
+            <div id="mtime"></div>
+            <div id="stime"></div>
+        </div>
+</div>
+    <script src="index.js"></script>
+</body>
+</html>

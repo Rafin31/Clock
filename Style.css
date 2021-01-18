@@ -1,0 +1,93 @@
+*{
+    margin : 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: black;
+    color: wheat;
+    
+}
+#head_tag{
+   text-align: center;
+   margin: 15px;
+   letter-spacing: 15px;
+
+}
+.container{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+#time{
+    font-size: 3.5rem;
+    max-width: 80vw;
+    max-height: 50svw;
+}
+.box{
+   
+    padding: 50px;
+    letter-spacing: 10px;
+    font-weight: 900 ;
+    
+
+}
+.analogWatch{
+    position: relative;
+    margin: auto;
+    height: 30vw;
+    width: 30vw;
+    background: url(newanalogwatch.png) no-repeat;
+    background-size: 100%;
+    
+}
+#htime , #mtime , #stime {
+    position: absolute;
+    
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#htime{
+    background: rgb(255, 0, 0) ;
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;  
+    
+}
+#mtime{
+    background: rgb(15, 115, 209) ;
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;
+}
+#stime{
+    background: rgb(255, 255, 255) ;
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8;
+}
+
+.box{
+    display: none;
+}
+
+@media screen and (max-width:750px){
+
+    .analogWatch{
+        
+        height: 50vw;
+        width: 50vw;
+    }
+    
+
+    
+}
+
+
